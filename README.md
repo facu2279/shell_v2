@@ -6,7 +6,7 @@ This is a UNIX command line interpreter. It takes commands from the keyboard and
 
 On most Linux systems a program called bash (which stands for Bourne Again SHell, an enhanced version of the original Unix shell program, sh, written by Steve Bourne) acts as the shell program. Besides bash, there are other shell programs available for Linux systems.
 
-Usage: ```simple_shell```
+Usage: ```simple_shell v2```
 
 It:
 Displays a prompt and waits for the user to type a command. A command line always ends with a new line.
@@ -73,31 +73,10 @@ To exit program:
 ```
 
 ## File manifest
-|   **File**   |   **Description**   |
-| -------------- | --------------------- |
-| main.c | The main function |
-| holberton.h | Header file |
-| functions.c | General functions |
-| aux_funcs.c | String management auxiliary functions |
-| builts_ints.c | Built in management functions |
-| ctrlc.c | Function to manage CTRL + C |
-| _strlen.c | Find string length functions |
-| find_path.c | Looks for the PATH |
-| dir_check.c | Checks if directory exists |
-| main.c | Entry point to the program |
-| AUTHORS | Creators |
-| man_1_simple_shell | Manual |
-| README.md |
+agregar tree de archivos
 
 ## Libraries included in this project
-- stdio.h
-- string.h
-- stdlib.h
-- sys/types.h
-- sys/wait.h
-- sys/stat.h
-- unistd.h
-- dirent.h
+agregar lista
 
 ## Known bugs
 None :)
