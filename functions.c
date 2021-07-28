@@ -6,7 +6,7 @@
  */
 void prompt_0(void)
 {
-	write(1, "<3 ", 3);
+	write(1, "$ ", 3);
 }
 
 /**
