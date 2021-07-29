@@ -91,6 +91,13 @@ int fcd(char **args, char **env, char *buffer)
 			perror("");
 		free(tmp);
 	}
+	else if (args[1] && args[1][0] == '-')
+	{
+		printf("%s\n", tmp);
+		if (chdir(tmp) != 0)
+			perror("");
+		free(tmp);
+	}
 	else if (args[1])
 	{
 		newdir = str_concat(tmp, "/");
