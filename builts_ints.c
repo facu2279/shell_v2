@@ -48,9 +48,6 @@ int fexit(char **args, char **env, char *buffer)
 {
 	(void)env;
 
-	if (args[1])
-		exit(args[1])
-
 	free(buffer);
 	free(args);
 	exit(0);
